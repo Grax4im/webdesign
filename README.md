@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido com [Create React App](https://github.com/facebook
 
 Bruno de Oliveira
 Paulo Roberto
-Roberto 
+Roberto Bolek
 Robert Silveira
 
 
