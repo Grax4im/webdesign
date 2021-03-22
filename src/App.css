@@ -1,0 +1,52 @@
+:root {
+    --blue: #2b71e6;
+    --red: #CB2026;
+    --green: #6fc40a;
+    --grey: #F6F7F8;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+h1, h2, h3 {
+    padding: 30px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    padding: 2rem;
+}
+
+p {
+    line-height: 30px;
+}
+section:nth-child(even) {
+    background: var(--blue);
+    color: white;
+}
+
+section:nth-child(odd) {
+    background: var(--grey);
+}
+
+.modal {
+    text-align: center;
+}
+
+.buttonContainer {
+    padding: 10px 0;
+    background: var(--green);
+    border-radius: 20px;
+}
+
+.modal .button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 80%;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+}

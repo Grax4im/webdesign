@@ -1,13 +1,21 @@
 {
   "name": "webdesign",
   "version": "0.1.0",
+  "engines": {
+	  "node": "14.15.5"
+   },
   "private": true,
+  "start": "node serve.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
